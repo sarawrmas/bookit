@@ -1,0 +1,142 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-image: linear-gradient(DarkCyan, aqua);
+	color: white;
+	padding: 25px;
+	font-size: 30px;
+	margin-bottom: 5px;
+	
+	/* position: fixed;
+	top: 0;
+	width: 100%; */
+	
+}
+
+/*.nav input[type=text]{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-image: linear-gradient(DarkCyan, aqua);
+	color: white;
+	padding: 25px;
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+
+.button {
+	display: flex;
+	flex-direction: row;
+	background-image: linear-gradient(DarkCyan, aqua);
+	float: right;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	margin-bottom: 5px;
+	font-size: 30px;
+}*/
+
+body {
+	margin: 0 auto;
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 5px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: DarkCyan;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	width: 25%;
+	margin: 0 auto;
+	padding: 15px;
+	background: white;
+	border: 2px solid DarkCyan;
+	border-radius: 10px;
+	color: darkCyan;
+}
+
+form button {
+	padding: 10px;
+	background-image: linear-gradient(DarkCyan, aqua);
+	color: white;
+	border: none;
+	border-radius: 3px;
+	width: 100px;
+	align-self: center;
+	margin-top: 10px;
+}
+form button:hover {
+	background-image: linear-gradient(aqua, DarkCyan);
+	cursor: pointer;
+}
+
+input {
+	margin: 5px;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+label {
+	margin: 5px;
+}
+
+form h2 {
+	text-align: center;
+}
+
+#shopcontainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.shopitem {
+	background: white;
+  text-align: center;
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+	border-radius: 5px;
+}
+
+.shopitem img {
+	width: 150px;
+}
+
+.back_to_search {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
